@@ -1,0 +1,427 @@
+Depense:
+  Fonctionnement:
+    DP_FONCT: Menu Fonctionnement
+    # DP_F_MODIF_PERS: MAJ des Bénéficiaires-FCT
+    DP_F_CLOT_GEST: Clôture de la Gestion-FCT
+    DP_F_TAB_STAT: Saisie Ord-Chap-banques-FCT
+    DP_F_CREDIT: Prise en charge des Crédits-FCT
+    DP_F_CREDIT_S: Saisie de crédits-FCT
+    DP_F_CREDIT_M: Modification des crédits-FCT
+    DP_F_CREDIT_A: Annulation de crédits-FCT
+    DP_F_ENGAGE: Engagement des Crédits-FCT
+    DP_F_ENGAGE_S: Saisie des Engagements-FCT
+    DP_F_ENGAGE_A: Annulation des Engagements-FCT
+    DP_F_ENGAGE_DEP_A: Annulation des Engagements-Dépense-FCT
+    DP_F_ENGAGE_DEP_S: Saisie des Engagements-Dépense-FCT
+    DP_F_MANDAT: Gestion des Mandats-FCT
+    DP_F_MANDAT_EM: Emission des Mandats-FCT
+    DP_F_MANDAT_EM_HD: Emission des Mandats Hors Délais-FCT
+    DP_F_MANDAT_VERIF: Vérification des Mandats-FCT
+    DP_F_MANDAT_AD: Admission ou rejet des Mandats-FCT
+    DP_F_MANDAT_AD_DEC: Admission des mandats à Découvert-FCT
+    DP_F_MANDAT_DISP: Vérification de la Disponibilité des Crédits-FCT
+    DP_F_MANDAT_DISP_DEC: Admission sans Vérification de Disponibilité-FCT
+    DP_F_MANDAT_OPPOS: Vérification des Oppositions-FCT
+    DP_F_MANDAT_REG: Règlement des Mandats-FCT
+    DP_F_MANDAT_REG_A: Annulation Règlement-FCT
+    DP_F_MANDAT_MODIF: Modification et Suppression des Mandats-FCT
+    DP_F_MANDAT_CONSULT: Consultaion des mandats-FCT
+    DP_F_EDIT_CTL: Edition Situations et Contrôles Crédit-FCT
+    DP_F_EDIT_TR6: Edition TR.6-FCT
+    DP_F_ENVOI_NC13: Envoi des NC13 à l'ACCT-FCT
+    DP_F_EDIT_FJ: Edition Feuille de Journée-FCT
+    DP_F_EDIT_CTL_REG: Edition Contrôles Réglement-FCT
+  Equipement:
+    DP_EQUIP: Menu Equipement
+    # DP_E_MODIF_PERS: MAJ des Bénéficiaires-EQUIP
+    DP_E_CLOT_GEST: Clôture de la Gestion-EQP
+    DP_E_TAB_STAT: Saisie Ord-Chap-Corresp-EQP
+    DP_E_MARCHE: Prise en charge de Marchés-EQP
+    DP_E_PROGRM: Prise en charge des autorisations-EQP
+    DP_E_PROGRM_S: Saisie Opérations et Engagements-EQP
+    DP_E_PROGRM_A: Annulation Opérations-EQP
+    DP_E_CREDIT: Prise en charge des Crédits-EQP
+    DP_E_CREDIT_S: Saisie des Crédits-EQP
+    DP_E_CREDIT_A: Annulation de crédits-EQP
+    DP_E_CREDIT_M: Modification des Crédits-EQP
+    DP_E_MANDAT: Gestion des Mandats-EQP
+    DP_E_MANDAT_EM: Emission des Mandats-EQP
+    DP_E_MANDAT_EM_HD: Emission des Mandats Hors Délais-EQP
+    DP_E_MANDAT_VERIF: Vérification des mandats-EQP
+    DP_E_MANDAT_AD: Admission ou rejet des mandats-EQP
+    DP_E_MANDAT_DISP: Disponibilité des crédits-EQP
+    DP_E_MANDAT_OPPOS: Vérification des Oppositions-EQP
+    DP_E_MANDAT_REG: Règlement des Mandats-EQP
+    DP_E_MANDAT_REG_A: Annulation Règlement-EQP
+    DP_E_MANDAT_MODIF: Modification et Suppression des Mandats-EQP
+    DP_E_MANDAT_CONSULT: Consultation des Mandats-EQP
+    DP_E_EDIT_CTL: Edition Situations et Contrôles-EQP
+    DP_E_EDIT_TR6: Edition TR.6-EQP
+  WILAYA:
+    DP_WILAYA: Menu WILAYA
+    # DP_WL_MODIF_PERS: DP_WL_MODIF_PERS
+    DP_W_CLOT_GEST: Clôture de la Gestion-WL
+    DP_W_TAB_STAT: Saisie Ord-Chap-Banques-WL
+    DP_W_CREDIT: Prise en charge des crédits-WL
+    DP_W_CREDIT_S: Saisie des crédits-WL
+    DP_W_CREDIT_M: Modification des Crédits-WL
+    DP_W_CREDIT_A: Annulation des Crédits-WL
+    DP_W_PROGRM: Prise en charge des programmes-WL
+    DP_W_PROGRM_S: Saisie des Programmes-WL
+    DP_W_PROGRM_M: Modification des Programmes-WL
+    DP_W_RECETTE: Prise en charge des Recettes-WL
+    DP_W_RECETTE_S: Saisie des Recettes-WL
+    DP_W_RECETTE_M: Modification des Recettes-WL
+    DP_W_MANDAT: Gestion des Mandats-WL
+    DP_W_MANDAT_EM: Emission Mandats-WL
+    DP_W_MANDAT_EM_HD: Emission des Mandats Hors Délais-WL
+    DP_W_MANDAT_VERIF: Vérification des Mandats-WL
+    DP_W_MANDAT_AD: Admission ou rejet des mandats-WL
+    DP_W_MANDAT_AD_DEC: Admission des mandats à Découvert-WL
+    DP_W_MANDAT_DISP: Disponibilité des crédits-WL
+    DP_W_MANDAT_DISP_DEC: Admissiion sans Vérification de Disponibilité-WL
+    DP_W_MANDAT_OPPOS: Vérification des Oppositions-WL
+    DP_W_MANDAT_REG: Règlement des Mandats-WL
+    DP_W_MANDAT_REG_A: Annulation Règlement-WL
+    DP_W_MANDAT_MODIF: Modification et Suppression des Mandats-WL
+    DP_W_MANDAT_CONSULT: Consultaion des mandats-WL
+    DP_W_EDIT_CTL: Edition Situations et Contrôles-WL
+    DP_W_EDIT_TR6: Edition TR.6-WL
+  EPA:
+    DP_EPA: Menu EPA
+    # DP_EPA_MODIF_PERS: DP_EPA_MODIF_PERS
+    DP_EPA_CLOT_GEST: Clôture de la Gestion-EPA
+    DP_EPA_TAB_STAT: Saisie Ord-Chap-Banques-EPA
+    DP_EPA_CREDIT: Prise en charge des crédits-EPA
+    DP_EPA_CREDIT_S: Saisie des crédits-EPA
+    DP_EPA_CREDIT_A: Annulation de crédits-EPA
+    DP_EPA_CREDIT_M: Modification des Crédits-EPA
+    DP_EPA_RECETTE: Prise en charge des Recettes-EPA
+    DP_EPA_RECETTE_S: Saisie des Recettes-EPA
+    DP_EPA_RECETTE_M: Modification des Opérations de Recettes-EPA
+    DP_EPA_MANDAT: Gestion des Mandats-EPA
+    DP_EPA_MANDAT_EM: Emission des Mandats-EPA
+    DP_EPA_MANDAT_EM_HD: Emission des Mandats Hors Délais-EPA
+    DP_EPA_MANDAT_VERIF: Vérification des Mandats-EPA
+    DP_EPA_MANDAT_AD: Admission ou rejet des mandats-EPA
+    DP_EPA_MANDAT_AD_DEC: Admission des mandats à Découvert-EPA
+    DP_EPA_MANDAT_DISP: Disponibilité des crédits-EPA
+    DP_EPA_MANDAT_DISP_DEC: Admissiion sans Vérification de Disponibilité-EPA
+    DP_EPA_MANDAT_OPPOS: Vérification des Oppositions-EPA
+    DP_EPA_MANDAT_REG: Règlement des Mandats-EPA
+    DP_EPA_MANDAT_REG_A: Annulation Règlement-EPA
+    DP_EPA_MANDAT_MODIF: Modification et Suppression des Mandats-EPA
+    DP_EPA_MANDAT_CONSULT: Consultaion des mandats-EPA
+    DP_EPA_EDIT_CTL: Edition Situations et Contrôles-EPA
+    DP_EPA_EDIT_TR6: Edition TR.6-EPA
+  COMPTES SPECIAUX:
+    DP_CPT_SPEC: Menu COMPTES SPECIAUX
+    # DP_SPEC_MODIF_PERS: DP_SPEC_MODIF_PERS
+    DP_SPEC_CLOT_GEST: Clôture de la Gestion-C-SPEC
+    DP_SPEC_TAB_STAT: Saisie Ord-Banques-Bénef-C-SPEC
+    DP_SPEC_CREDIT: Prise en charge des crédits-C-SPEC
+    DP_SPEC_CREDIT_S: Saisie des crédits-C-SPEC
+    DP_SPEC_CREDIT_A: Annulation de crédits-C-SPEC
+    DP_SPEC_MANDAT: Gestion des Mandats-C-SPEC
+    DP_SPEC_MANDAT_EM: Emission des Mandats-C-SPEC
+    DP_SPEC_MANDAT_EM_HD: Emission des Mandats Hors Délais-C-SPEC
+    DP_SPEC_MANDAT_VERIF: Vérification des Mandats-C-SPEC
+    DP_SPEC_MANDAT_AD: Admission ou rejet des mandats-C-SPEC
+    DP_SPEC_MANDAT_AD_DEC: Admission des mandats à Découvert-C-SPEC
+    DP_SPEC_MANDAT_DISP: Disponibilité des crédits-C-SPEC
+    DP_SPEC_MANDAT_DISP_DEC: Admissiion sans Vérification de Disponibilité-C-SPEC
+    DP_SPEC_MANDAT_OPPOS: Vérification des Oppositions-C-SPEC
+    DP_SPEC_MANDAT_REG: Règlement des Mandats-C-SPEC
+    DP_SPEC_MANDAT_REG_A: Annulation Règlement-C-SPEC
+    DP_SPEC_MANDAT_MODIF: Modification et Suppression des Mandats-C-SPEC
+    DP_SPEC_MANDAT_CONSULT: Consultaion des mandats-C-SPEC
+    DP_SPEC_EDIT_CTL: Edition Situations et Contrôles-C-SPEC
+    DP_SPEC_EDIT_TR6: Edition TR.6-C-SPEC
+  OPPOSITIONS:
+    DP_OPPOSIT: Menu OPPOSITIONS
+    DP_OPPOSIT_ATD: Prise en charge des Oppositions
+    DP_OPPOSIT_ATD_S: Saisie des Oppositions
+    DP_OPPOSIT_ATD_M: Modification des Oppositions
+    DP_OPPOSIT_ATD_A: Annulation des Oppositions
+    DP_OPPOSIT_ATD_REG: Règlement d'Oppositions
+    DP_OPPOSIT_ATD_INT: Consultation des Mainlevées
+    DP_OPPOSIT_TP: Prise en charge des TP envoyés par le Recouvrement
+    DP_OPPOSIT_TP_INT: Consultation des TP envoyés par le Recouvrement
+    DP_OPPOSIT_RECH: Recherche Générale
+    DP_OPPOSIT_REDEV: REDEVABLES
+    EDIT_DIVERS: Menu DIVERS
+Recouvrement:
+  BUDGET D'ETAT:
+    RC_BUDG_ETAT: Menu BUDGET D'ETAT
+    RC_BE_CHAP: Saisie des Chapitres
+    RC_BE_GEST: Clôture de la Gestion
+    RC_BE_MAJ_BRD: Mise à jour du Bordereau de Reprise
+    RC_BE_TP: Menu TP / ETATS EXECUTOIRES
+    RC_BE_TP_BR: Sous Menu Bordereau
+    RC_BE_BR_S: Saisie Bordereau
+    RC_BE_BR_M: Modification Bordereau
+    RC_BE_BR_SUPP: Suppresion Bordereau
+    RC_BE_TP_REDUC: Sous Menu Réduction
+    RC_BE_REDUC_S: Saisie Réduction
+    RC_BE_REDUC_A: Annulation Réduction
+    RC_BE_TP_RECOUV: Sous Menu Recouvrement
+    RC_BE_RECOUV_S: Saisie Recouvrement
+    RC_BE_RECOUV_A: Annulation Recouvrement
+    RC_BE_TP_INT: Sous Menu Consultation Bordereau
+    RC_BE_TP_ENVOI: Envoi des TP à l'Opposition
+    RC_BE_AR_RG: Menu ARRET /ARRETE
+    RC_BE_AR: Prise en charge des Arrêts/Arrêtés de Débet
+    RC_BE_AR_S: Saisie Arrêts/Arrêtés
+    RC_BE_AR_M: Modifictaion Arrêts/Arrêtés
+    RC_BE_AR_SUPP: Suppresion Arrêts/Arrêtés
+    RC_BE_RG: Remises Gracieuses
+    RC_BE_RG_S: Saisie Remises Gracieuses
+    RC_BE_RG_A: Annulation Remise Gracieuse
+    RC_BE_AR_RECOUV: Sous Menu Recouvrement-ARR
+    RC_BE_AR_RECOUV_S: Saisie Recouvrement-ARR
+    RC_BE_AR_RECOUV_A: Anuulation Recouvrement-ARR
+    RC_BE_AR_INT: Sous Menu Consultation Arret/Arrete
+    RC_BE_AR_ENVOI: Envoi des Arret/Arrete à l'Opposition
+    RC_BE_BRST: Menu BORDEREAU SANS TITRE
+    RC_BE_BRST_PRCH: Sous Menu Prise en charge
+    RC_BE_BRST_PRCH_S: Saisie des Bordereau ST
+    RC_BE_PRCH_M: Modification des Bordereau ST
+    RC_BE_PRCH_INT: Consultation des Bordereau ST
+    RC_BE_BRST_REGUL: Sous Menu Régularisation
+    RC_BE_BRST_REGUL_S: Saise des Régularisations
+    RC_BE_REGUL_M: Modification des Régularisations
+    RC_BE_REGUL_INT: Consultation des Régularisations
+    RC_BE_CP: Sous Menu Contres Parties
+    RC_BE_CP_S: Saisie Contres Parties
+    RC_BE_CP_A: Annulation Contres Parties
+    RC_BE_CP_INT: Consultation Contres Parties
+    RC_BE_TR6: Edition du TR6
+  BUDGET WILAYA:
+    RC_BUDG_WILAYA: Menu BUDGET WILAYA
+    RC_BW_CHAP: Saisie des Chapitres BW
+    RC_BW_GEST: Clôture de la Gestion BW
+    RC_BW_MAJ_BRD: Mise à jour du Bordereau de Reprise BW
+    RC_BW_BR: Sous Menu Bordereau BW
+    RC_BW_BR_S: Saisie Bordereau BW
+    RC_BW_BR_M: Modification Bordereau BW
+    RC_BW_BR_SUPP: Suppresion Bordereau BW
+    RC_BW_REDUC: Sous Menu Réduction BW
+    RC_BW_REDUC_S: Saisie Réduction BW
+    RC_BW_REDUC_A: Annulation Réduction BW
+    RC_BW_RECOUV: Sous Menu Recouvrement BW
+    RC_BW_RECOUV_S: Saisie Recouvrement BW
+    RC_BW_RECOUV_A: Annulation Recouvrement BW
+    RC_BW_INT: Sous Menu Consultation Bordereau BW
+    RC_BW_ENVOI: Envoi des TP à l'Opposition BW
+    RC_BW_CP: Sous Menu Contres Parties BW
+    RC_BW_CP_S: Saisie des Contres Parties BW
+    RC_BW_CP_A: Annulation des Contres Parties BW
+    RC_BW_CP_INT: Consultaion des Contres Parties BW
+    RC_BW_TR6: Edition du TR6 BW
+  BUDGET EPA:
+    RC_BUDG_EPA: Menu BUDGET EPA
+    RC_BEPA_EP: Saisie des Etablissements BEPA
+    RC_BEPA_SECT: Saisie des Secteurs BEPA
+    RC_BEPA_CHAP: Saisie des Chapitres BEPA
+    RC_BEPA_GEST: Clôture de Gestion BEPA
+    RC_BEPA_MAJ_BRD: Mise à jour du Bordereau de Reprise BEPA
+    RC_BEPA_BR: Sous Menu Bordereau BEPA
+    RC_BEPA_BR_S: Saisie Bordereau BEPA
+    RC_BEPA_BR_M: Modification Bordereau BEPA
+    RC_BEPA_BR_SUPP: Suppression Bordereau BEPA
+    RC_BEPA_REDUC: Sous Menu Réduction BEPA
+    RC_BEPA_REDUC_S: Saisie Réduction BEPA
+    RC_BEPA_REDUC_A: Annulation Réduction BEPA
+    RC_BEPA_RECOUV: Sous Menu Recouvrement BEPA
+    RC_BEPA_RECOUV_S: Saisie Recouvrement BEPA
+    RC_BEPA_RECOUV_A: Annulation Recouvrement BEPA
+    RC_BEPA_INT: Sous Menu Consultation Bordereau  BEPA
+    RC_BEPA_ENVOI: Envoi des TP à l'Opposition BEPA
+    RC_BEPA_CP: Sous Menu Contres Parties BEPA
+    RC_BEPA_CP_S: Saisie Contres Parties BEPA
+    RC_BEPA_CP_A: Annulation Contres Parties BEPA
+    RC_BEPA_CP_INT: Consultation Contres Parties BEPA
+    RC_BEPA_TR6: Edition du TR6 BEPA
+  CONTROLE:
+    RC_CTRL: Menu CONTROLE
+    RC_CTRL_BE: CTRL-BETAT
+    RC_CTRL_BW: CTRL-BWILAYA
+    RC_CTRL_BEPA: CTRL-BEPA
+    RC_CTRL_AR: CTRL-ARRET
+  SITUATION:
+    RC_SITUA: Menu SITUATION
+    RC_SITUA_BE: SITUATION-BETAT
+    RC_SITUA_BW: SITUATION-BWILAYA
+    RC_SITUA_BEPA: SITUATION-BEPA
+  DIVERS:
+    RC_DIVERS: MENU DIVERS
+    RC_DIVERS_EDIT: Edition-DIVERS
+    RC_REDEV: Sous Menu Redevable
+    RC_BQ_S: Saisie des Banques
+    RC_ORD_S: Saisie des Ordonnateurs
+Comptabilite:
+  TR5:
+    CP_TR5_ENVOI: Saisie et Envoi des TR5
+    CP_TR5_ENVOI_A: Annulation de l'envoi des TR5
+  TR6:
+    CP_TR6_S: Saisie TR6
+    CP_TR6_int: Interrogation des mouvements
+    CP_TR6_A: Annulation des mouvements
+    # CP_TR6_A_int: Interrogation des mouvements Annulés
+    CP_TR6_V: Validation des TR6
+    # CP_TR6_V_A: Annulation de la Validation des TR6
+    CP_TR6_V_INT: Consultation des TR6
+    CP_TR6_EDIT: Edition des TR6
+    CP_TR6_ENVOI: Envoi des TR6
+    CP_TR6_ENVOI_A: Annulation Envoi des TR6
+  Balance:
+    CP_BALANCE: Menu Balance
+    CP_BALANCE_E: Balance d'Entrée
+    CP_BALANCE_E_S: Saisie de la Balance d'entrée
+    CP_BALANCE_E_C: Chargement de la Balance d'entrée
+    CP_BALANCE_E_M: Modification de la Balance d'entrée
+    CP_BALANCE_E_A: Annulation de la Balance d'entrée
+    CP_BALANCE_E_int: Interrogation de la Balance d'entrée
+    CP_BALANCE_M: Balance Mensuelle
+    CP_BALANCE_M_S: Génération de la Balance Mensuelle
+    CP_BALANCE_M_int: Consultation de la Balance Mensuelle
+    CP_BALANCE_D: Balance Définitive
+    CP_BALANCE_D_S: Génération de la Balance  Définitive
+    CP_BALANCE_D_V: Validation de la Balance  Définitive
+    CP_BALANCE_D_A: Annulation de Validation de la Balance  Définitive
+    CP_BALANCE_D_INT: Consultation de la Balance  Définitive
+  Régie:
+    CP_REGIE: Menu Régie
+    CP_REGIE_REC: Saisie des Receveurs
+    CP_REGIE_MOTIF: Saisie des Motifs
+    CP_REGIE_BAL_E: Balance d'Entrée des Receveurs
+    CP_REGIE_BAL_E_S: Saisie de la Balance d'Entrée des Receveurs
+    CP_REGIE_BAL_E_INT: Consultation de la Balance d'Entrée des Receveurs
+    CP_REGIE_BAL: Balance Régie Financière
+    CP_REGIE_BAL_S: Saisie de la Balance Régie
+    CP_REGIE_BAL_M: Modification de la Balance Régie
+    CP_REGIE_BAL_V: Validation de la Balance Régie
+    CP_REGIE_BAL_V_A: Annulation de la Validation de la Balance Régie
+    CP_REGIE_BAL_INT: Consultation de la Balance Régie
+    CP_REGIE_OPER: Opération Régie Financière
+    CP_REGIE_REG: Remise Régie
+    CP_REGIE_REG_S: Saisie des Remises Régie
+    CP_REGIE_REG_A: Annulation des Remises Régie
+    CP_REGIE_REG_INT: Consultation des Remises Régie
+    CP_REGIE_SERV: Remontées des Régies
+    CP_REGIE_SERV_S: Saisie des Remontées des Régies
+    CP_REGIE_SERV_A: Annulation des Remontées des Régies
+    CP_REGIE_SERV_int: Consultation des Remontées des Régies
+    CP_REGIE_CONTRE_P: Contres Parties des Régie
+    CP_REGIE_CONTRE_P_S: Saisie des Contres Parties des Régie
+    CP_REGIE_CONTRE_P_A: Annulation des Contres Parties des Régie
+    CP_REGIE_CONTRE_P_INT: Interrogation des Contres Parties des Régie
+    CP_REGIE_EDIT: Edition Régie
+  Transferts:
+    CP_TRSF: Menu Transferts
+    CP_TRSF_DEP: Opérations Départ
+    CP_TRSF_DEP_S: Saisie des Transferts
+    CP_TRSF_DEP_E: Envoi des Transferts
+    CP_TRSF_DEP_CONS_S: Saisie des Transferts Consignés
+    CP_TRSF_DEP_CONS_E: Envoi des Transferts Consignés
+    CP_TRSF_DEP_INT: Consultation des Transferts Envoyés
+    CP_TRSF_DEP_CONS_INT: Consultation des Transferts Consignés
+    CP_TRSF_ARRIV: Opérations Arrivée
+    CP_TRSF_ARRIV_R: Récéption des Transferts Arrivés
+    CP_TRSF_ARRIV_P: Prise en charge des Transferts Arrivés
+    CP_TRSF_ARRIV_S: Saisie des Transferts Arrivés
+    CP_TRSF_ARRIV_A: Annulation des Transferts Arrivés
+    CP_TRSF_ARRIV_INT: Consultation des Transferts Arrivés
+    CP_TRSF_CONTRE_P: Contres Parties des  Transferts
+    CP_TRSF_CONTRE_P_S: Saisie des Contres Parties des  Transferts
+    CP_TRSF_CONTRE_P_A: Annulation des Contres Parties des  Transferts
+    CP_TRSF_CONTRE_P_INT: Interrogation des Contres Parties des Transferts
+    CP_TRSF_EDIT: Edition-Menu Transferts
+    CP_TR6_ORD_EDIT: Edition du TR6 des Opération d'Ordres
+  Divers:
+    CP_MOUVEMENT: Menu Mouvements
+    CP_CONTRE_P: Contres Parties
+    CP_CONTRE_P_S: Annulation des Contres Parties
+    CP_CONTRE_P_int: Interrogation des Contres Parties
+    CP_CONTRE_P_V: Validation des Contres Parties
+    CP_CONTRE_P_V_A: Annulation de la Validation des Contres Parties
+    CP_GESTION: Initialisation de la Gestion
+  CCP:
+    CP_CCP: Menu CCP
+Portfeuille:
+  Classes:
+    PF_CL_A: Classe A
+    PF_CL_B: Classe B
+    PF_CL_C: Classe C
+    PF_CL_D: Classe D
+  Client:
+    PF_Client: Menu Client
+    PF_Client_MAJ: Mise à jour Client
+    PF_Client_S: Saisie Client
+    PF_Client_M: Modification Client
+    PF_Client_INT: Interrogation Client
+    PF_Client_A: Annulation Client
+  Cheques:
+    PF_Cheque: Carnets de Cheques
+    PF_Cheque_Rec: Reception des Carnets
+    PF_Cheque_Rec_s: Saisie Reception des Carnets
+    PF_Cheque_Rec_a: Annulation Reception des Carnets
+    PF_Cheque_Rem: Remise des Carnets
+    PF_Cheque_Rem_S: Saisie Remise des Carnets
+    PF_Cheque_Rem_A: Annulation Remise des Carnets
+    PF_Cheque_Int: Consultation des Carnets de Cheques
+    PF_Cheque_dem: Demande des Carnets de Cheques
+    PF_Cheque_Edit: Edition Carnets de Cheques
+  Blocage:
+    PF_Blocage: Blocage
+    PF_Bloc_cpt_S: Bloquer Compte
+    PF_Bloc_cpt_D: Débloquer Compte
+    PF_Bloc_cpt_int: Interrogation des Comptes Bloqués
+    PF_Bloc_dep_cpt_S: Bloquer Dépenses d'un Compte
+    PF_Bloc_dep_cpt_D: Débloquer Dépenses d'un Compte
+    PF_Bloc_dep_cpt_int: Interrogation des Dépenses Bloquées
+  Oppositions:
+    PF_Opposit: Oppositions
+    PF_Opposit_s: Saisie Opposition
+    PF_Opposit_A: Annulation Opposition
+    PF_Opposit_Int: Interrogation des Oppositions
+  Solde:
+    PF_Solde_cpt: Solder un compte
+    PF_Solde_cpt_s: Solder un compte-Saisie
+    PF_Solde_cpt_A: Solder un compte-Annulation
+    PF_Solde_cpt_Int: Consultation des comptes Soldés
+    PF_Solde_Consult: Consultation du Solde d'un compte
+  Opérations:
+    PF_Operation: Menu Opération
+    PF_Oper_Det: Compte Détail
+    PF_Oper_Det_Q: Saisie Operations Quotidienne
+    PF_Oper_Det_HQ: Saisie Operations Quotidienne HJ
+    PF_Oper_Det_A: Annulation des Opérations
+    PF_Oper_Det_Int: Interrogation des Opérations
+    PF_Oper_GEN: Compte Général
+    PF_Oper_GEN_Q: Saisie d'un Mouvement
+    PF_Oper_GEN_HQ: Saisie d'un Mouvement HJ
+    PF_Oper_GEN_A: Annulation d'un Mouvement
+    PF_Oper_GEN_Int: Consultation des Mouvements
+  Chèques Certfiés:
+    PF_Chq_Certif: Chèques Certfiés
+    PF_Certif_chq_S: Certification des Chèques
+    PF_Certif_chq_A: Annulation de la Certification
+    PF_Certif_chq_R: Récupération d'un Fichier
+    PF_Oper_Certif_S: Opération sur Chèques Certifiés
+    PF_Oper_Certif_A: Annulation des Opérations Chq-Certifiés
+    PF_Certif_chq_Int: Consultation des chéques Certifiés
+  Transferts:
+    PF_Transf: Prise en charge des Transferts
+    PF_Paie: Traitement de la Paie
+    PF_Mandat: Traitement des Mandats
+    PF_Oper_BA: Opérations Banque d'Algérie
+    PF_Oper_BA_M: Modification Opérations Banque d'Algérie
+    PF_Oper_Det_M: Modification N° Série du Chèque
+    PF_Edit_TR6: Edition TR6
+    PF_Rech_cle: Recherche Clé
+    PF_Edition: Menu Editions
+    PF_List_Stat: Listes Statiques
+    PF_Certif_chq_M: Modification N° Série du Chèque Certifié
+    PF_REGIE_BNQ: Prise en charge des Ops de Régie (Banques)
+    PF_REGIE_BNQ_A: Annulation des Ops de Régie (Banques)

@@ -1,0 +1,5 @@
+host: 10.5.108.1
+port: 1522
+instance: SIT08001
+user: tw08
+password: pproot08
